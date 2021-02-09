@@ -15,6 +15,10 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
 }
 
+p {
+    margin: 0;
+}
+
 .container {
     width: 1170px;
     margin: 0 auto;
@@ -23,16 +27,20 @@ h1, h2, h3, h4, h5, h6 {
 header {
     height: 150px;
     background-color: #999999;
+    display: flex;
+    align-items: center;
 }
 
-header .de {
+.element-label-block {
+    max-width: 1170px;
+    margin: 0 auto;
 }
 
 p.description {
     text-align: center;
 }
 
-.wrapper {
+.image-wrapper {
     display: flex;
     justify-content: space-between;
 }
@@ -49,28 +57,72 @@ section#site-description-screen .container {
     background-color: #FFAAAA;
 }
 
-p.section-header {
-    margin: 10px 0 10px 0;
-    text-align: center;
+#first-screen .element-label-block {
+    max-width: 1100px;
 }
 
-div.site-description {
-    height: 300px;
-    background-color: #FF5599;
+.label-text {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-div.portfolio .wrapper{
-   padding: 0 10px 10px;
+p.section-header {
+    text-align: center;
+    padding: 10px;
+}
+
+div.site-description {
+    height: 300px;
+    background-color: #FF5599;
+}
+
+.image-wrapper {
+    padding: 0 10px 10px;
 }
 
 .portfolio-image {
     width: 515px;
     height: 225px;
     background-color: #808080;
+}
+
+section#gallery-screen {
+    background-color: #808080;
+}
+
+.gallery-image {
+    width: 360px;
+    height: 350px;
+    background-color: #9955FF;
+}
+
+section#gallery-screen .image-wrapper {
+    padding: 0 20px 20px;
+}
+
+section#additional-info-screen .container {
+    background-color: #FFAAAA;
+    padding-bottom: 15px;
+}
+
+section#additional-info-screen .section-header {
+    padding: 20px;
+}
+
+section#additional-info-screen .label-text {
+    height: 300px;
+    background-color: #F97648;
+}
+
+footer {
+    height: 400px;
+    background-color: #4D4D4D;
     display: flex;
     align-items: center;
-    justify-content: center;
+    color: #FFF;
+}
+
+footer .element-label-block {
+    max-width: 1300px;
 }
