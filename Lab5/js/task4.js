@@ -11,4 +11,5 @@ const gcd = (a, b) => {
 let lcm = number1 / gcd(number1, number2) * number2;
 
 console.log("4. Знайти НСК двох двоцифрових натуральних чисел.");
+console.log(number1, number2);
 console.log("НСК: ", lcm);
