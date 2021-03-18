@@ -1,0 +1,90 @@
+body {
+    font-family: "Arial", sans-serif;
+    font-size: 22px;
+    margin: 0 auto;
+    padding: 0;
+    height: 400px;
+    width: 400px;
+    border: #000000 solid 1px;
+}
+
+div, p, form, input, button, span, a, ul, li {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+header {
+    background-color: #C6D9F1;
+}
+
+.block{
+    border: #000000 solid 1px;
+}
+
+.first-block {
+    padding: 30px 10px 30px 10px;
+}
+
+.text {
+    width: 80px;
+    background-color: #ffffff;
+    border: #000000 solid 1px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.first-block .text {
+    text-align: right;
+}
+
+/*main{*/
+/*    height: 200px;*/
+/*}*/
+
+main .wrapper{
+    padding: 0;
+}
+
+.left-block{
+}
+
+.second-block{
+    width: 100px;
+    background-color: #FDE9D9;
+    height: 180px;
+    border-left: none;
+    border-bottom: none;
+}
+
+.third-block{
+    width: 200px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+.fourth-block{
+    width: 100px;
+    background-color: #FDE9D9;
+    border-right: none;
+}
+
+.fifth-block{
+    background-color: #EAF1DD;
+    height: 45px;
+    border-left: none;
+    border-right: none;
+}
+
+footer {
+    background-color: #C6D9F1;
+}
+
+.sixth-block {
+    padding: 30px 10px 30px 10px;
+}
